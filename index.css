@@ -1,0 +1,33 @@
+h2{
+    font-family: segoe ui;
+    text-align: center;
+}
+.menu{
+    height: 200px;
+    width: 600px;
+    margin: auto;
+}
+ .menu ul{
+    display: flex;
+    list-style: none;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-family: segoe ui;
+    color: black;
+    line-height: 30px;
+}
+.menu ul li:hover a{
+    color: rgb(250, 103, 103);
+    transition: 0.3s;
+
+}
+.menu ul li img{
+    height: 166px;
+    width: 162px;
+    margin-right: 20px;
+}
+.menu ul li span{
+    margin-left: 10px;
+}
